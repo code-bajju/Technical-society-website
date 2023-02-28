@@ -3,9 +3,11 @@ import { BsFacebook } from 'react-icons/bs'
 import { BsTwitter } from 'react-icons/bs'
 import { AiFillInstagram } from 'react-icons/ai'
 import { ImLinkedin } from 'react-icons/im'
-import { IoLogoWhatsapp } from 'react-icons/io'
+import { FaDiscord } from 'react-icons/fa'
 import './footer.sass'
-import Image from './Flogo.png'
+import Image from '../../Assets/images/Flogo.png'
+import { Link } from 'react-router-dom'
+
 
 
 function Footer() {
@@ -20,36 +22,39 @@ function Footer() {
         <ol>
           <li><span class="material-symbols-outlined">
             mail
-          </span><p> info@gdscmmdu.org </p></li>
+          </span><p> mmdu.dsc@gmail.com </p></li>
           <li>
             <span class="material-symbols-outlined">
               call
             </span>
-            <p>+91 9264185207</p>
+            <p>7318388965</p>
           </li>
           <li>
             <span class="material-symbols-outlined">
               location_on
             </span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, iusto inventore! Error deserunt excepturi rem neque soluta repudiandae ea enim.</p>
+            <p>MM Education Complex, MMDU , Mullana ( Ambala ), Mullana, Haryana, India, 133207</p>
           </li>
         </ol>
       </div>
       <div className="G-F-4">
           <p>Follow us on :</p>
           <ol>
-            <li> <BsFacebook/> </li>
-            <li> <BsTwitter/> </li>
-            <li> <AiFillInstagram /> </li>
-            <li> <ImLinkedin/> </li>
-            <li> <IoLogoWhatsapp /> </li>
+            <li> <Link to="https://twitter.com/gdsc_mmdu" ><BsTwitter/></Link>  </li>
+            <li> <Link to="https://www.instagram.com/gdsc_mmdu/" ><AiFillInstagram /></Link>  </li>
+            <li> <Link to="https://www.linkedin.com/company/dscmmdu/" ><ImLinkedin/></Link>  </li>
+            <li> <Link to="https://discord.com/invite/Gkb4j9rUPD" ><FaDiscord /></Link>  </li>
           </ol>
       </div>
       <div className="G-F-5">
         <p>Quick Links</p>
         <ul>
-          <li>Events</li>
-          <li>Certificates</li>
+          <li>
+            <Link >Events</Link>
+          </li>
+          <li>
+            <Link>Certificates</Link>
+          </li>
         </ul>
       </div>
     </div>

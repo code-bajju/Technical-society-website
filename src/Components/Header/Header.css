@@ -1,0 +1,23 @@
+.G-H {
+  display: flex;
+}
+.G-H .G-H-L {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: auto;
+}
+.G-H .G-H-L img {
+  width: 36vw;
+}
+.G-H .G-H-N {
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style-type: none;
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}/*# sourceMappingURL=Header.css.map */
