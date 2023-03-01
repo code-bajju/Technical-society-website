@@ -1,0 +1,31 @@
+.A-Container .A-1 {
+  height: 30vh;
+  background-image: url(../../Assets/images/red_banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.A-Container .A-1 h1 {
+  color: white;
+  font-size: 8vh;
+}
+.A-Container .A-2 {
+  display: flex;
+  height: 50vh;
+  padding: 2%;
+  padding-top: 5%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+}
+.A-Container .A-2 .A-2-1 p {
+  text-align: left;
+}
+.A-Container .A-2 .A-2-2 {
+  width: 30vw;
+  aspect-ratio: 1;
+  background-image: url(../../Assets/images/image.jpg);
+  background-position: 40%;
+  border-radius: 24px;
+}/*# sourceMappingURL=About.css.map */

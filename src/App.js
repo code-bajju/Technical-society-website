@@ -5,15 +5,17 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
-
+import About from './Pages/About/About';
 
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-      <Header/>
-      {/* <Footer/> */}
+        <Header />
+        <About />
+
+        {/* <Footer/> */}
       </div>
     </BrowserRouter>
   );
