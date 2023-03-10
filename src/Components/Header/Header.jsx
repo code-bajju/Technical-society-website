@@ -12,9 +12,9 @@ function Header() {
         <img src={Image} alt="gdsc logo" />
       </div>
       <div className="G-H-N">
-          <li> <Link>Home</Link> </li>
-          <li> <Link>About</Link> </li>
-          <li> <Link>Events</Link> </li>
+          <li> <Link to='/'>Home</Link> </li>
+          <li> <Link to='/about' >About</Link> </li>
+          <li> <Link to='/eventpage'>Events</Link> </li>
           <li> <Link>Blogs</Link> </li>
           <li> <Link>Contact</Link> </li>
       </div>

@@ -23,7 +23,7 @@
 
 the code signifies the hierarchy of the modules 
 the top 4 parent modules that are the pages in the websites 
- Home (H)     About (A)     Blogs(B)      Events(E)      Event Details (ED)      Global (G) *[elements that are common in every page are placed under global category ]*
+ Home (H)     About (A)     Blogs(B)      Eventpage(E)      Event Details (ED)      Global (G) *[elements that are common in every page are placed under global category ]*
 
 Second letter signifies the Component 
 Footer (F)  
