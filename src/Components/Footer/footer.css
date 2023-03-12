@@ -23,6 +23,12 @@
          column-gap: 30%;
   }
 }
+@media (max-width: 600px) {
+  .G-F {
+    -moz-column-gap: 10%;
+         column-gap: 10%;
+  }
+}
 .G-F .G-F-1 {
   margin-left: 0%;
   margin-right: auto;

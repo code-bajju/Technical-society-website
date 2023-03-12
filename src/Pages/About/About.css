@@ -52,8 +52,6 @@
 .A-Container .A-2 .A-2-2 img {
   max-width: 453px;
   max-height: 470px;
-  background-image: url();
-  background-position: 40%;
   border-radius: 24px;
 }
 @media (max-width: 1028px) {

@@ -4,6 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = [
     {
         title: 'Compose Camp',
+        CompleteTitle : 'Compose Camp',
         details:{
             date: '01-03-2023',
             time:{
@@ -16,6 +17,12 @@ const initialState = [
         type: 'Info Session ',
         img: 'https://blog.desdelinux.net/wp-content/uploads/2021/08/Jetpack-Compose-1024x305.png',
         description:'Compose Camps are community-organized events focused on how to build Android apps using Jetpack Compose. During these sessions, attendees can get hands-on coding experience on how to develop apps using the latest toolset, Compose, the modern way to develop UI on Android. For those of you who’ve attended Android Study Jams in the past, this is a fun spin on the event series with a focus on Compose!',
+        Speaker:{
+            name:'Ms. Jenny Oliens',
+            type: 'Android developer',
+            image: 'https://blog.desdelinux.net/wp-content/uploads/2021/08/Jetpack-Compose-1024x305.png'
+        },
+        EventImages: ["a","a","a","a",]
     },
     {
         title: 'Appeofesta',
