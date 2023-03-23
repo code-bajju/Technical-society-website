@@ -1,8 +1,9 @@
 
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice,nanoid } from "@reduxjs/toolkit";
 
 const initialState = [
     {
+        id:nanoid(),
         title: 'Compose Camp',
         CompleteTitle : 'Compose Camp',
         details:{
@@ -25,6 +26,7 @@ const initialState = [
         EventImages: ["a","a","a","a",]
     },
     {
+        id:nanoid(),
         title: 'Appeofesta',
         details:{
             date: '01-04-2023',
@@ -40,6 +42,7 @@ const initialState = [
         description:'',
     },
     {
+        id:nanoid(),
         title: 'Machine Learning',
         details:{
             date: '25-03-2023',
@@ -55,6 +58,7 @@ const initialState = [
         description:'',
     },
     {
+        id:nanoid(),
         title: 'Flutter Festival',
         details:{
             date: '15-03-2023',
@@ -70,3 +74,11 @@ const initialState = [
         description:'',
     },
 ]
+
+const eventslice = createSlice({
+    name: 'event',
+    initialState,
+    reducers:{}
+    
+})
+export default eventslice.reducer

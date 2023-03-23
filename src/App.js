@@ -5,19 +5,25 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
-import About from './Pages/About/About';
-import EventDetails from './Pages/Events/eventDetails';
 import Router from './Pages/Router';
+import { Provider } from 'react-redux';
+import { store } from './app/store';
+import EventDetails from './Pages/Events/eventDetails';
+import ScreenLoader from './Pages/Loader/ScreenLoader';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Header />
-         <Router/>
-        <Footer/>
-      </div>
-    </BrowserRouter>
+      <>
+      <ScreenLoader/>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <Router />
+          <Footer />
+          {/* <EventDetails/> */}
+        </div>
+      </BrowserRouter>
+      </>
   );
 }
 
